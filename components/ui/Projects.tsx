@@ -19,7 +19,7 @@ const SkeletonOne = () => {
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200 mb-8">
         Memories is a cloud based journaling website which let's you journal on the go.
       </p>
-      <a href="https:\\memories4you.vercel.app" className="text-white bg-black border border-black p-4 px-6 my-4 rounded-md" target="_blank">Live Demo</a>
+      <a href="https://memories4you.vercel.app" className="text-white bg-black border border-black p-4 px-6 my-4 rounded-md" target="_blank">Live Demo</a>
     </div>
   );
 };
@@ -32,7 +32,7 @@ const SkeletonTwo = () => {
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200 mb-8">
         A neural network study i did for my Machine Learning course on the CIFAR-10 dataset
       </p>
-      <a href="https:\\memories4you.vercel.apphttps://colab.research.google.com/drive/1ttP5ZU-1U0tKMnpG4oYQz45z3NjDWIFn#scrollTo=PoCC8dDyN9kD" className="text-white bg-black border border-black p-4 px-6 my-4 rounded-md" target="_blank">Live Demo</a>
+      <a href="https://colab.research.google.com/drive/1ttP5ZU-1U0tKMnpG4oYQz45z3NjDWIFn#scrollTo=PoCC8dDyN9kD" className="text-white bg-black border border-black p-4 px-6 my-4 rounded-md" target="_blank">Live Demo</a>
     </div>
   );
 };
