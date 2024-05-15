@@ -15,13 +15,15 @@ const Footer = () => {
         Socials
       </div>
       <div className="flex ">
-        <div className="border-l-1 border-l border-black h-[100%] p-8 hover:bg-red-400 text-4xl">
-        <FaLinkedinIn />
-        </div>
-        <div className="border-x-1 border-x border-black h-[100%] p-8 text-4xl">
+      <a href="https://www.linkedin.com/in/parmar-varun/" target ="_blank" className="hover:bg-blue-400 duration-200 p-8 grid items-center justify-center text-4xl border-l border-black">
+      <FaLinkedinIn  width={20}/>
+      </a>
+        <a href="https://github.com/tripleschezwanrice" target= "_blank" className="hover:bg-green-400 duration-200 border-x-1 border-x border-black h-[100%] p-8 text-4xl">
         <FaGithub width={7}/> 
-        </div>
-        <div className=" border-black h-[100%] p-8 text-4xl"><BiLogoGmail /></div>
+
+         </a>
+        <a className="border-black h-[100%] p-8 text-4xl hover:bg-red-500 duration-200" href="mailto:varunparmarwork@gmail.com"
+        ><BiLogoGmail /></a>
       </div>
     </div>
 
@@ -32,19 +34,17 @@ const Footer = () => {
         <div className="justify-center items-center p-8 border-r grid border-black">
         Socials
       </div>
-      <div className=" grid items-center justify-center text-4xl">
+      <a href="https://www.linkedin.com/in/parmar-varun/" target ="_blank" className="hover:bg-blue-400 duration-400 p-8 grid items-center justify-center text-4xl">
       <FaLinkedinIn  width={20}/>
-      </div>
+      </a>
         </div>
 
         <div className="row-span-1 grid grid-cols-2">
-        <div className=" p-8 grid items-center justify-center border-black border-r text-4xl">
-        <FaGithub width={20}/> 
-      </div>
-      <div className="grid items-center justify-center text-4xl">
-      <BiLogoGmail />
-
-      </div>
+        <a href="https://github.com/tripleschezwanrice" target= "_blank" className="hover:bg-green-400 duration-200 border-x-1 border-x border-black h-[100%] p-8 text-4xl  grid justify-center items-center  ">
+        <FaGithub width={7}/> 
+        </a>
+        <a className="border-black h-[100%] p-8  grid justify-center items-center    text-4xl hover:bg-red-500 duration-200" href="mailto:varunparmarwork@gmail.com" 
+        ><BiLogoGmail /></a>
         </div>
 
     </div>

@@ -27,7 +27,7 @@ export const LayoutGrid = ({ cards }: { cards: Card[] }) => {
 
   return (
 
-<div className="h-fit mb-20">
+<div className="h-fit pb-20 pt-10">
 
 <h1 className="text-5xl md:text-6xl lg:text-7xl  font-normal  md:text-center  mb-6 underline underline-offset-2 decoration-violet-500 md:w-full w-[95%] mx-auto flex flex-col ">Projects</h1>
 {/* <p className="text-center mb-6">Recent Web Deleopment and ML projects</p> */}

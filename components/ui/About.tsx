@@ -4,12 +4,12 @@ import React from 'react'
 const About = () => {
   return (
     <>
-    <div className='md:grid hidden md:grid-cols-2 md:grid-rows-1  grid-rows-2  z-[999] items-center w-full justify-normal bg-white text-black'>
+    <div className='md:grid hidden md:grid-cols-2 md:grid-rows-1  grid-rows-2  z-[999] items-center w-full justify-normal bg-white text-black py-12'>
         <div className='md:h-[80vh] h-[55vh] grid sm:justify-center sm:items-center col-span-1 row-span-1 border-r border-r-1 overflow-hidden'>
             <Image
-                src="/duck.png"
-                width={1024}
-                height={1024}
+                 src="/newpfp.png"
+                width={2048}
+                height={2048}
                 alt=''
                 className='w-full h-full object-cover z-[999]'
                 />
@@ -28,9 +28,9 @@ const About = () => {
     <div className='flex flex-col md:hidden'>
     <div className='max-h-[50vh] z-[999] overflow-hidden'>
             <Image
-                src="/duck.png"
-                width={1024}
-                height={1024}
+                src="/newpfp.png"
+                width={2048}
+                height={2048}
                 alt=''
                 className='w-full h-full object-cover z-[999]'
                 />

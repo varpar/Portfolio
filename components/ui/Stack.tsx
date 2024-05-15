@@ -5,7 +5,7 @@ type Props = {}
 
 const Stack = (props: Props) => {
   return (
-    <div className=' grid mt-20'> 
+    <div className=' grid pt-20'> 
      <h1 className='md:text-7xl sm:text-6xl text-5xl md:text-center mb-6 p-4 underline underline-offset-2 decoration-yellow-400'>Tech-Stack</h1>
       <div className='grid grid-rows-3 lg::w-[40%] md:w-[60%] w-[90%] mx-auto gap-6'>
 

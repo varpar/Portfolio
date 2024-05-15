@@ -13,8 +13,8 @@ const config: Config = {
         second: "moveInCircle 20s reverse infinite",
         third: "moveInCircle 40s linear infinite",
         fourth: "moveHorizontal 40s ease infinite",
-        fifth: "moveInCircle 20s ease infinite",
-        
+        fifth: "moveVertical 20s ease infinite",
+
       },
       keyframes: {
         moveHorizontal: {
@@ -41,13 +41,13 @@ const config: Config = {
         },
         moveVertical: {
           "0%": {
-            transform: "translateY(-50%)",
+            transform: "translateY(-50%) translateX(200%)",
           },
           "50%": {
-            transform: "translateY(50%)",
+            transform: "translateY(150%) translateX(10%)" ,
           },
           "100%": {
-            transform: "translateY(-50%)",
+            transform: "translateY(-50%) translateX(-200%)",
           },
         },
       },
