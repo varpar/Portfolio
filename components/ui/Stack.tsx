@@ -20,28 +20,28 @@ const Stack = (props: Props) => {
         />
 
 <Image 
-        src="/next.png"
+        src="/react.png"
         height={32}
         width={32}
         alt=''
         className='col-span-1  flex mx-auto'
         />
         <Image 
-        src="/next.png"
+        src="/tailwind.png"
         height={32}
         width={32}
         alt=''
         className='col-span-1 flex mx-auto'
         />
         <Image 
-        src="/next.png"
+        src="/prima.svg"
         height={32}
         width={32}
         alt=''
         className='col-span-1 flex mx-auto'
         />
         <Image 
-        src="/next.png"
+        src="/ts.png"
         height={32}
         width={32}
         alt=''
@@ -53,7 +53,7 @@ const Stack = (props: Props) => {
         <div className='row-span-1 grid grid-cols-5 items-center'>
 
 <Image 
-src="/next.png"
+src="/c.png"
 height={32}
 width={32}
 alt=''
@@ -61,28 +61,28 @@ className='col-span-1 flex mx-auto'
 />
 
 <Image 
-src="/next.png"
+src="/postgres.png"
+height={32}
+width={32}
+alt=''
+className='col-span-1 flex mx-auto'
+/>
+<Image 
+src="/c++.png"
 height={32}
 width={32}
 alt=''
 className='col-span-1  flex mx-auto'
 />
 <Image 
-src="/next.png"
+src="/py.png"
 height={32}
 width={32}
 alt=''
 className='col-span-1 flex mx-auto'
 />
 <Image 
-src="/next.png"
-height={32}
-width={32}
-alt=''
-className='col-span-1 flex mx-auto'
-/>
-<Image 
-src="/next.png"
+src="/opencv.png"
 height={32}
 width={32}
 alt=''
@@ -94,7 +94,7 @@ className='col-span-1 flex mx-auto'
 <div className='row-span-1 grid grid-cols-5 items-center'>
 
         <Image 
-        src="/next.png"
+        src="/tensorflow.png"
         height={32}
         width={32}
         alt=''
@@ -102,28 +102,28 @@ className='col-span-1 flex mx-auto'
         />
 
 <Image 
-        src="/next.png"
+        src="/blender.png"
         height={32}
         width={32}
         alt=''
         className='col-span-1  flex mx-auto'
         />
         <Image 
-        src="/next.png"
+        src="/git.png"
         height={32}
         width={32}
         alt=''
         className='col-span-1 flex mx-auto'
         />
         <Image 
-        src="/next.png"
+        src="/github.png"
         height={32}
         width={32}
         alt=''
         className='col-span-1 flex mx-auto'
         />
         <Image 
-        src="/next.png"
+        src="/figma.png"
         height={32}
         width={32}
         alt=''

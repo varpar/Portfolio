@@ -6,6 +6,8 @@ import { Projects } from "@/components/ui/Projects";
 import About from "@/components/ui/About";
 import Footer from "@/components/ui/Footer";
 import Resume from "@/components/ui/Resume";
+import { BsChevronDoubleDown } from "react-icons/bs";
+
 
 const Page = () => {
   const [showSidebar, setShowSidebar] = useState(false);
@@ -43,36 +45,31 @@ const Page = () => {
         <div className="Navbar md:h-screen z-[999] inset-0 flex text-black md:p-12 md:mt-6 text-4xl md:text-4xl lg:text-7xl font-light flex-col justify-between">
           <div className="md:hidden grid grid-cols-4 w-full text-xl fixed top-0 right-0 z-[99999999] border-b">
             <h1 className="col-span-3 p-4 flex items-center z-[99999999999] bg-white">Varun Parmar</h1>
-            <div className="col-span-1 flex justify-center items-center bg-black">
+            <div className="col-span-1 flex justify-center items-center bg-white text-black">
               <button
-                className="p-4 flex items-center justify-center w-full z-[9999999] text-white text-center"
+                className="p-4  flex items-center justify-center w-full z-[9999999] border-1 duration-200 hover:bg-black hover:text-white border-black  border h-full text-center"
                 onClick={toggleSidebar}
               >
-                {showSidebar ? "Close" : "X"}
+                {showSidebar ? <BsChevronDoubleDown className="rotate-180 duration-200 "/> : <BsChevronDoubleDown className="duration-200 "/>}
               </button>
               <div
-                className={`fixed top-0 left-0 right-0 mt-[60px] bg-black text-white z-[9999998] text-center transition-transform transform ${
-                  showSidebar ? "translate-y-0" : "-translate-y-full"
+                className={`fixed top-0 left-0 right-0 mt-[60px] items-center justify-center bg-white text-black h-screen z-[9999998] text-center transition-transform transform pt-36 font-bold text-2xl border-t ${
+                  showSidebar ? "translate-y-0" : "-translate-y-full "
                 }`}
               >
-                <a href="#about" className="py-4 block">
+                <a href="#about" onClick={toggleSidebar} className="py-4 block text-red-500">
                   About
                 </a>
-                <a href="#stack" className="py-4 block">
+                <a href="#stack"  onClick={toggleSidebar} className="py-4 block text-yellow-500">
                   Stack
                 </a>
-                <a href="#resume" className="py-4 block">
+                <a href="#resume"  onClick={toggleSidebar}  className="py-4 block text-blue-400">
                   Resume
                 </a>
-                <a href="#projects" className="py-4 block">
+                <a href="#projects"  onClick={toggleSidebar} className="py-4 block text-purple-500">
                   Projects
                 </a>
-                <button
-                  className="p-4 bg-gray-800 text-white"
-                  onClick={toggleSidebar}
-                >
-                  Close
-                </button>
+                
               </div>
             </div>
           </div>
@@ -91,16 +88,16 @@ const Page = () => {
           <div className="justify-end place-items-end md:flex hidden z-[99] mb-20">
             <div className="lg:text-3xl md:text-xl text-lg z-[9999] w-fit flex flex-col text-gray-500">
               <p className="text-black">Jump To</p>
-              <a href="#about" className="hover:text-red-600 hover:underline underline-offset-2">
+              <a href="#about" className="hover:text-red-600 ">
                 About
               </a>
-              <a href="#stack" className="hover:text-violet-600 hover:underline underline-offset-2">
+              <a href="#stack" className="hover:text-yellow-500 ">
                 Stack
               </a>
-              <a href="#resume" className="hover:text-yellow-500 hover:underline underline-offset-2">
+              <a href="#resume" className="hover:text-blue-500 ">
                 Resume
               </a>
-              <a href="#projects" className="hover:text-green-500 hover:underline underline-offset-2">
+              <a href="#projects" className="hover:text-violet-500 ">
                 Projects
               </a>
             </div>

@@ -41,13 +41,13 @@ const config: Config = {
         },
         moveVertical: {
           "0%": {
-            transform: "translateY(-50%) translateX(200%)",
+            transform: "translateY(100%) translateX(20%)",
           },
           "50%": {
             transform: "translateY(150%) translateX(10%)" ,
           },
           "100%": {
-            transform: "translateY(-50%) translateX(-200%)",
+            transform: "translateY(100%) translateX(20%)",
           },
         },
       },

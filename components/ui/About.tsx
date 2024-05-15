@@ -5,16 +5,19 @@ const About = () => {
   return (
     <>
     <div className='md:grid hidden md:grid-cols-2 md:grid-rows-1  grid-rows-2  z-[999] items-center w-full justify-normal bg-white text-black py-12'>
-        <div className='md:h-[80vh] h-[55vh] grid sm:justify-center sm:items-center col-span-1 row-span-1 border-r border-r-1 overflow-hidden'>
-            <Image
-                 src="/newpfp.png"
-                width={2048}
-                height={2048}
-                alt=''
-                className='w-full h-full object-cover z-[999]'
-                />
-        </div>
-        <div className='md:h-[80vh] h-[60vh] grid md:justify-center md:items-center col-span-1 md:pr-24 p-4 md:row-span-0 row-span-1 z-[999]'>
+    <div className='md:h-[80vh] h-[55vh] grid sm:justify-center sm:items-center col-span-1 row-span-1 border-r border-r-1 overflow-hidden'>
+    <Image
+        src="/newpfp.png"
+        width={2048}
+        height={2048}
+        alt=''
+      // This fills the entire parent container
+  // This ensures the image covers the entire space without stretching
+        className='object-cover h-full z-[999]'
+    />
+</div>
+
+        <div className='md:h-[80vh] h-[60vh] grid md:justify-center md:items-center col-span-1 lg:pr-24 md:pr-8 p-4 md:row-span-0 row-span-1 z-[999]'>
             <div>
             <p className='text-5xl md:text-6xl lg:text-7xl mb-4 relative text-black underline-offset-2 decoration-red-500 underline' >About me
 </p>
