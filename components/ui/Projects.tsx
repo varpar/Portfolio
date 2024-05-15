@@ -57,7 +57,7 @@ const SkeletonFour = () => {
        Computer Vision project for emotion detection using the Face expression recognition dataset
 with over 35,000 images with openCV.
       </p>
-      <a href="https://github.com/tripleschezwanrice/Emote.io.git" className="text-white bg-black border border-black p-4 px-6 my-4 rounded-md" target="_blank">Repository</a>
+      <a href="https://github.com/tripleschezwanrice/emote.io.git" className="text-white bg-black border border-black p-4 px-6 my-4 rounded-md" target="_blank">Repository</a>
     </div>
   );
 };

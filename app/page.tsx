@@ -50,10 +50,10 @@ const Page = () => {
                 className="p-4  flex items-center justify-center w-full z-[9999999] border-1 duration-200 hover:bg-black hover:text-white border-black  border h-full text-center"
                 onClick={toggleSidebar}
               >
-                {showSidebar ? <BsChevronDoubleDown className="rotate-180 duration-200 "/> : <BsChevronDoubleDown className="duration-200 "/>}
+                {showSidebar ? <BsChevronDoubleDown className="rotate-180 duration-100 "/> : <BsChevronDoubleDown className="duration-100 "/>}
               </button>
               <div
-                className={`fixed top-0 left-0 right-0 mt-[60px] items-center justify-center bg-white text-black h-screen z-[9999998] text-center transition-transform transform pt-36 font-bold text-2xl border-t ${
+                className={`fixed top-0 left-0 right-0 mt-[60px] items-center justify-center bg-white text-black h-screen z-[9999998] text-center transition-transform transform pt-36  text-2xl border-t ${
                   showSidebar ? "translate-y-0" : "-translate-y-full "
                 }`}
               >
