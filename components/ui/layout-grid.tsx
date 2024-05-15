@@ -31,7 +31,7 @@ export const LayoutGrid = ({ cards }: { cards: Card[] }) => {
 
 <h1 className="text-5xl md:text-6xl lg:text-7xl  font-normal  md:text-center  mb-6 underline underline-offset-2 decoration-violet-500 md:w-full w-[95%] mx-auto flex flex-col ">Projects</h1>
 {/* <p className="text-center mb-6">Recent Web Deleopment and ML projects</p> */}
-    <div className="md:w-full w-[95%] h-[95vh]  grid grid-cols-1 sm:grid-cols-2 z-[9999] md:px-8 mx-auto gap-4 relative">
+    <div className="md:w-full w-[95%] md:h-[95vh] h-[150vh]  grid grid-cols-1 sm:grid-cols-2 z-[9999] md:px-8 mx-auto gap-4 relative">
         
       {cards.map((card, i) => (
         <div key={i} className={cn(card.className, "")}>
@@ -41,7 +41,7 @@ export const LayoutGrid = ({ cards }: { cards: Card[] }) => {
               card.className,
               "relative ",
               selected?.id === card.id
-                ? " cursor-pointer absolute inset-0 h-[70%] w-full md:w-1/2 m-auto z-50 flex justify-center items-center rounded-md flex-wrap flex-col"
+                ? " cursor-pointer absolute inset-0 md:h-[70%] h-[40%]  w-full md:w-1/2 m-auto z-50 flex justify-center items-center rounded-md flex-wrap flex-col"
                 : lastSelected?.id === card.id
                 ? "z-40 bg-white  h-full w-full"
                 : "bg-white  rounded-md h-full w-full"
